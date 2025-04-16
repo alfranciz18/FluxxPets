@@ -1,0 +1,695 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+}
+.navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+.navbar ul{
+    list-style: none;
+    background-color: rgb(144, 199, 253); 
+    font-size: 20px;
+    font-weight: 800;
+    padding: 0px;
+    margin: 0px;
+    height: 100px;
+    overflow: visible;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-items: center;
+    align-items: center;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.nav:hover{
+    background-image: linear-gradient(120deg, #bb7ff3 0%, #4aa1f8 100%);
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.logo{
+    list-style: none;
+    overflow: visible;
+    text-decoration: none;
+    padding: 35px;
+    display: block;
+    text-align: center;
+    float: left;
+}
+.navbar li{
+    float: right;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(180deg, #8EC5FC 0%, #E0C3FC 100%);    
+}
+.imgintro{
+    width: 700px;
+    position: absolute;
+    left: 1050px;
+    top: 150px;
+}
+.toys{
+    position: absolute;
+    width: 550px;
+    left: 200px;
+    bottom: 100px;
+}
+.title{
+    position: absolute;
+    font-size: 150px;
+    font-weight: 900;
+    left: 150px;
+    top: 200px;
+}
+.introwrap{
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    left: 150px;
+    top: 365px;
+}
+.introduction{
+    font-size: 35px;
+    font-weight: 600;
+}
+.Ace{
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    background-color: #e0c3fc;
+    background-image: linear-gradient(180deg, #e0c3fc 0%, #8a53c5 100%);
+}
+.ace1:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.5);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.ace2:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.5);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.ace3:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.5);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.ace4:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.5);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.ace5:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.5);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.ace6:hover{
+    margin: 0px;
+    padding-right: 3200px;
+    padding-bottom: 300px;
+    transform: scale(1.5);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.ace1{
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 0px;
+}
+.ace2{
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 320px;
+}
+.ace3{
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 640px;
+}     
+.ace4{
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 950px;
+}
+.ace5{
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 1270px;
+}
+.ace6{
+    width: 270px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 1590px;
+}
+.acename{ 
+    position: absolute;
+    top: 100px;
+    left: 800px;
+    font-size: 150px;
+    font-weight: 900;
+}
+.andrewname{ 
+    position: absolute;
+    top: 100px;
+    left: 680px;
+    font-size: 150px;
+    font-weight: 900;
+}
+.andreiname{ 
+    position: absolute;
+    top: 100px;
+    left: 680px;
+    font-size: 150px;
+    font-weight: 900;
+}
+.ivanname{ 
+    position: absolute;
+    top: 100px;
+    left: 750px;
+    font-size: 150px;
+    font-weight: 900;
+}
+.lawrencename{ 
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    font-size: 150px;
+    font-weight: 900;
+}
+.nathanname{ 
+    position: absolute;
+    top: 100px;
+    left: 680px;
+    font-size: 150px;
+    font-weight: 900;
+}
+.Andrew{
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    background-color: #8a53c5;
+    background-image: linear-gradient(180deg, #8a53c5 0%, #803465 100%);
+}
+.andrew1{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 0px;
+}
+.andrew2{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 380px;
+}
+.andrew3{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 755px;
+}     
+.andrew4{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 1135px;
+}
+.andrew5{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 1513px;
+}
+.andrew1:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.andrew2:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.andrew3:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.andrew4:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.andrew5:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.Nathan{
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    background-color: #c5539e;
+    background-image: linear-gradient(180deg, #803465 0%, #963b3d 100%);
+}
+.nathan1{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 0px;
+}
+.nathan2{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 380px;
+}
+.nathan3{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 755px;
+}     
+.nathan4{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 1135px;
+}
+.nathan5{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 1513px;
+}
+.nathan1:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.nathan2:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.nathan3:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.nathan4:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.nathan5:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.Andrei{
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    background-color: #c55355;
+    background-image: linear-gradient(180deg, #963b3d 0%, #916a3f 100%);
+}
+.andrei1{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 0px;
+}
+.andrei2{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 380px;
+}
+.andrei3{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 755px;
+}     
+.andrei4{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 1135px;
+}
+.andrei5{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 1513px;
+}
+.andrei1:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.andrei2:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.andrei3:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.andrei4:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.andrei5:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.Ivan{
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    background-color: #c58f53;
+    background-image: linear-gradient(180deg, #916a3f 0%, #6d943e 100%);
+}
+.ivan1{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 0px;
+}
+.ivan2{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 380px;
+}
+.ivan3{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 755px;
+}     
+.ivan4{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 1135px;
+}
+.ivan5{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 1513px;
+}
+.ivan1:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.ivan2:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.ivan3:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.ivan4:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.ivan5:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.Lawrence{
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    background-color: #92c553;
+    background-image: linear-gradient(180deg, #6d943e 0%, #388685 100%);
+}
+.lawrence1{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 0px;
+}
+.lawrence2{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 380px;
+}
+.lawrence3{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 755px;
+}     
+.lawrence4{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 1135px;
+}
+.lawrence5{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 300px;
+    left: 1513px;
+}
+.lawrence1:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.lawrence2:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.lawrence3:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.lawrence4:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+.lawrence5:hover{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.8);
+    z-index: 1000;
+}
+@keyframes appear{
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes appear2{
+    from{
+        opacity: 0;
+        scale: 0.2;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+#animation{
+    animation: appear2 linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
