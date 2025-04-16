@@ -157,8 +157,7 @@ li{
 }
 .ace6:hover{
     margin: 0px;
-    padding-right: 3200px;
-    padding-bottom: 300px;
+    padding: 0px;
     transform: scale(1.5);
     transition: all 0.5s ease-in-out;
     filter: brightness(0.8);
